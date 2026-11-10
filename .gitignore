@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+/freebuff-sites-build/
+/.open-next/
+/.wrangler/
+tsconfig.tsbuildinfo
+
+# platform config (local bindings, not part of the app)
+freebuff.wrangler.jsonc
+
+# local env
+.env
+.env.*
+!.env.example
+
+# os
+.DS_Store
